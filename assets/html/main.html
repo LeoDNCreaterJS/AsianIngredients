@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title> Main Test</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+       <nav class="navbar">
+            <div class="navbar_container">
+                <a href="/Main.html" id="navbar_Logo"><img src="/iamge/FreeHome.png", width="80">Asian Ingredients</a>
+                <div class="navbar_toggle" id="mobile-menu">
+                    <span class="bar"></span> 
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            <ul class=" navbar_menu">
+                <li class="navbar_item">
+                    <a href="/Main.html" class="navbar_links"> Home </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="/products.html" class="navbar_links"> Products</a>
+                </li>
+                <li class="navbar_btn">
+                    <a href="/Contact.html" class="navbar_links"> Contract </a>
+            </ul>
+            </div>
+         </nav>
+
+         <div class="slider-contain">
+            <div class="slider fade">
+                <img src="/iamge/1.jpg" alt="Asian"style="width:60%" height="400px" >
+                <div class="text">Asian Food</div>
+            </div>
+            <div class="slider fade">
+                <img src="/iamge/2.2.jpg" alt="Sushi" style="width:60%" height="400px">
+                <div class="text">Sushi</div>
+            </div>
+            <div class="slider fade"> 
+                <img src="/iamge/3.jpg" alt="Soup" style="width:60%" height="400px" > 
+                <div class="text">Soup</div>
+            </div>
+        
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center" >
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <!-- <br>
+        <div class="text-maindish"> Main Dish </div>
+        <br> -->
+
+        <!-- <div class="slider-maindish">
+            <div class="sliders-maindish fade">
+                <img src="/iamge/1.jpg" width="300px" height="250px" >
+            </div>
+            <div class="sliders-maindish fade">
+                <img src="/iamge/2.2.jpg" width="300px" height="250px" >
+            </div>
+            <div class="sliders-maindish fade">
+                <img src="/iamge/3.jpg" width="300px" height="250px" > 
+            </div>
+            <a class="prev-maindish" onclick="plusSlide(-1)">&#10094;</a>
+            <a class="next-maindish" onclick="plusSlide(1)">&#10095;</a>
+        </div>
+         --> 
+         
+<!--          
+
+
+         <section id="slider-maindish">
+            
+            <div class="contain-maindish">
+                <div class="sub-maindish">
+                    <div class=" slider-wrapper">
+                        <div class="control">
+                            <div>
+                                <h1>Main Dish</h1>
+                                <a class="prev-maindish" onclick="plusSlide(-1)">&#10094;</a>
+                                <a class="next-maindish" onclick="plusSlide(1)">&#10095;</a>
+                            </div>
+                            
+                        </div>
+                        <br>
+                        <div class="my-slider">
+                            <div>
+                                <div class="slide">
+                                    <div class="slider-img img-1">
+                                        <a href="#">Learn more</a>
+                                    </div>
+                                    <br>
+                                </div>
+                                <h2> Califorina</h2>
+                                <p> Lost angeles</p>
+                            </div>
+                            <div>
+                                <div class="slide">
+                                    <div class="slider-img img-2">
+                                        <a href="#">Learn more</a>
+                                    </div>
+                                    <br>
+                                </div>
+                                <h2> newyork</h2>
+                                <p> newyork</p>
+                            </div>
+                            <div>
+                                <div class="slide">
+                                    <div class="slider-img img-3">
+                                        <a href="#">Learn more</a>
+                                    </div>
+                                    <br>
+                                </div>
+                                <h2> Califorina</h2>
+                                <p> sanfranci</p>
+                            </div>
+                            <div>
+                                <div class="slide">
+                                    <div class="slider-img img-4">
+                                        <a href="#">Learn more</a>
+                                    </div>
+                                    <br>
+                                </div>
+                                <h2>south dakota</h2>
+                                <p> keystone</p>
+                            </div>
+                            <div>
+                                <div class="slide">
+                                    <div class="slider-img img-5">
+                                        <a href="#">Learn more</a>
+                                    </div>
+                                    <br>
+                                </div>
+                                <h2> Califorina</h2>
+                                <p> Lost angeles</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+         </section main dish> -->
+         
+         <section class="product"> 
+           <div class="product-category">
+            <h2>Main Dish</h2>
+            <button class="prev-bnt">&#10094;</button>
+            <button class="next-bnt">&#10095;</button>
+            </div>
+            <div class="product-container">
+                <div class="product-card">
+                    <div class="product-image">
+                        <!-- <span class="discount-tag">50% off</span> -->
+                        <img src="iamge/Main-Dish/Grill Beef GalBi ( Korean Short Ribs).jpg" width="250px" height="180px" class="product-thumb" alt="">
+                        <button class="card-btn">Learn More</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Grill Beef GalBi (Korean Short Ribs)</h2>
+                        <p class="product-short-description">Korean Short Ribs marinated in a sweet and savory sauce and grilled to caramelized perfection.</p>
+                        <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <!-- <span class="discount-tag">50% off</span> -->
+                        <img src="iamge/Main-Dish/California Sushi Bowl.jpg"  width="250px" height="180px" class="product-thumb" alt="">
+                        <button class="card-btn">Learn More</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">California Sushi Bowl</h2>
+                        <p class="product-short-description">California Sushi Bowl is the quickest way to satiate a sushi craving.</p>
+                        <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <!-- <span class="discount-tag">50% off</span> -->
+                        <img src="iamge/Main-Dish/Chicken Lo Mein.jpg" class="product-thumb" alt=""  width="250px" height="180px">
+                        <button class="card-btn">Learn More</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Chicken Lo Mein</h2>
+                        <p class="product-short-description">Savory and sweet, this chicken lo mein is pefect for slurping.</p>
+                        <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <!-- <span class="discount-tag">50% off</span> -->
+                        <img src="iamge/Main-Dish/Sweet and Sour Chicken.jpg" class="product-thumb" alt=""  width="250px" height="180px">
+                        <button class="card-btn">Learn More</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Sweet and Sour Chicken</h2>
+                        <p class="product-short-description">Sweet and Sour Chicken is made with a sticky and tangy sauce that's simply irresistible.</p>
+                        <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <!-- <span class="discount-tag">50% off</span> -->
+                        <img src="iamge/Main-Dish/Beff Lettuce Wraps.jpg" class="product-thumb" alt=""  width="250px" height="180px">
+                        <button class="card-btn">Learn More</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Beff Lettuce Wraps</h2>
+                        <p class="product-short-description">A low-card indulgence!</p>
+                        <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <!-- <span class="discount-tag">50% off</span> -->
+                        <img src="iamge/Main-Dish/Korean Beef Bulgogi.jpg" class="product-thumb" alt=""  width="250px" height="180px">
+                        <button class="card-btn">Learn More</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Korean Beef Bulgogi</h2>
+                        <p class="product-short-description">Korean BBQ with sweet and spicy beef bulgogi.</p>
+                        <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <!-- <span class="discount-tag">50% off</span> -->
+                        <img src="iamge/Main-Dish/Chicken and Mushroom.jpg" class="product-thumb" alt=""  width="250px" height="180px">
+                        <button class="card-btn">Learn More</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Chicken and Mushroom</h2>
+                        <p class="product-short-description">Chicken and Mushroom stir-fry is a low-card dinner.</p>
+                        <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- </section side dish>-->
+    <section class="product"> 
+        <div class="product-category">
+         <h2 >Side Dish</h2>
+         <button class="prev-bnt">&#10094;</button>
+         <button class="next-bnt">&#10095;</button>
+         </div>
+         <div class="product-container">
+             <div class="product-card">
+                 <div class="product-image">
+                     <!-- <span class="discount-tag">50% off</span> -->
+                     <img src="iamge/Side-Dish/Soy Sauce Fried Rice.jpg" width="250px" height="180px" class="product-thumb" alt="">
+                     <button class="card-btn">Learn More</button>
+                 </div>
+                 <div class="product-info">
+                     <h2 class="product-brand">Soy Sauce Fried Rice</h2>
+                     <p class="product-short-description">Soy sauce fried rice uses a balanced combination of dark and light soy sauce.</p>
+                     <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+                 </div>
+             </div>
+             <div class="product-card">
+                 <div class="product-image">
+                     <!-- <span class="discount-tag">50% off</span> -->
+                     <img src="iamge/Side-Dish/Stir-Fried Baby Bok Choy.jpg"  width="250px" height="180px" class="product-thumb" alt="">
+                     <button class="card-btn">Learn More</button>
+                 </div>
+                 <div class="product-info">
+                     <h2 class="product-brand">Stir-Fried Baby Bok Choy</h2>
+                     <p class="product-short-description">Tender and healthy baby bok choy get a boost from soy sauce and minced garlic.</p>
+                     <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+                 </div>
+             </div>
+             <div class="product-card">
+                 <div class="product-image">
+                     <!-- <span class="discount-tag">50% off</span> -->
+                     <img src="iamge/Side-Dish/Chinese Cucumber Salad.jpg" class="product-thumb" alt=""  width="250px" height="180px">
+                     <button class="card-btn">Learn More</button>
+                 </div>
+                 <div class="product-info">
+                     <h2 class="product-brand">Chinese Cucumber Salad</h2>
+                     <p class="product-short-description">Cucumbers are considered the ideal foil for hot weather and hot food..</p>
+                     <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+                 </div>
+             </div>
+             <div class="product-card">
+                 <div class="product-image">
+                     <!-- <span class="discount-tag">50% off</span> -->
+                     <img src="iamge/Side-Dish/Stir-Fried Choy Sum.jpg" class="product-thumb" alt=""  width="250px" height="180px">
+                     <button class="card-btn">Learn More</button>
+                 </div>
+                 <div class="product-info">
+                     <h2 class="product-brand">Stir-Fried Choy Sum</h2>
+                     <p class="product-short-description">Choy sum is a delicious Asian green that tastes similar to both bok choy and broccoli rabe.</p>
+                     <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+                 </div>
+             </div>
+             <div class="product-card">
+                 <div class="product-image">
+                     <!-- <span class="discount-tag">50% off</span> -->
+                     <img src="iamge/Side-Dish/Spinach Ohitashi (Japanese Spinach Salad).jpg" class="product-thumb" alt=""  width="250px" height="180px">
+                     <button class="card-btn">Learn More</button>
+                 </div>
+                 <div class="product-info">
+                     <h2 class="product-brand">Spinach Ohitashi (Japanese Spinach Salad) </h2>
+                     <p class="product-short-description">It’s served in a super-nutritious kombu dashi broth.</p>
+                     <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+                 </div>
+             </div>
+             <div class="product-card">
+                 <div class="product-image">
+                     <!-- <span class="discount-tag">50% off</span> -->
+                     <img src="iamge/Side-Dish/Spicy Asian Zucchini.jpg" class="product-thumb" alt=""  width="250px" height="180px">
+                     <button class="card-btn">Learn More</button>
+                 </div>
+                 <div class="product-info">
+                     <h2 class="product-brand">Spicy Asian Zucchini</h2>
+                     <p class="product-short-description">Sriracha hot sauce is the star of the show in this powerfully flavored veggie side dish that’s great for using up the fruits of your summer garden.</p>
+                     <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+                 </div>
+             </div>
+             <div class="product-card">
+                 <div class="product-image">
+                     <!-- <span class="discount-tag">50% off</span> -->
+                     <img src="iamge/Side-Dish/Chinese Coleslaw.jpg" class="product-thumb" alt=""  width="250px" height="180px">
+                     <button class="card-btn">Learn More</button>
+                 </div>
+                 <div class="product-info">
+                     <h2 class="product-brand">Chinese Coleslaw</h2>
+                     <p class="product-short-description">This inventive salad can easily make an entire meal.</p>
+                     <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+                 </div>
+             </div>
+             </div>
+         </div>
+     </section>
+
+ <!-- </section Soup>-->
+ <section class="product"> 
+    <div class="product-category">
+     <h2 >Soup</h2>
+     <button class="prev-bnt">&#10094;</button>
+     <button class="next-bnt">&#10095;</button>
+     </div>
+     <div class="product-container">
+         <div class="product-card">
+             <div class="product-image">
+                 <!-- <span class="discount-tag">50% off</span> -->
+                 <img src="iamge/Soup/Egg Drop Soup.jpg" width="250px" height="180px" class="product-thumb" alt="">
+                 <button class="card-btn">Learn More</button>
+             </div>
+             <div class="product-info">
+                 <h2 class="product-brand">Egg Drop Soup</h2>
+                 <p class="product-short-description">Egg drop soup is just as creamy and delicious .</p>
+                 <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+             </div>
+         </div>
+         <div class="product-card">
+             <div class="product-image">
+                 <!-- <span class="discount-tag">50% off</span> -->
+                 <img src="iamge/Soup/Wonton Soup.jpg"  width="250px" height="180px" class="product-thumb" alt="">
+                 <button class="card-btn">Learn More</button>
+             </div>
+             <div class="product-info">
+                 <h2 class="product-brand">Wonton Soup</h2>
+                 <p class="product-short-description">Wonton soup is a staple of Chinese cuisine, made with meat-filled dumplings in a clear broth.</p>
+                 <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+             </div>
+         </div>
+         <div class="product-card">
+             <div class="product-image">
+                 <!-- <span class="discount-tag">50% off</span> -->
+                 <img src="iamge/Soup/Hot and Sour Soup with Vegetables and Tofu.jpg" class="product-thumb" alt=""  width="250px" height="180px">
+                 <button class="card-btn">Learn More</button>
+             </div>
+             <div class="product-info">
+                 <h2 class="product-brand">Hot and Sour Soup with Vegetables and Tofu</h2>
+                 <p class="product-short-description">This vegetarian version is flavored with spicy red chili and a dash of vinegar, to really bring all those vibrant flavors alive..</p>
+                 <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+             </div>
+         </div>
+         <div class="product-card">
+             <div class="product-image">
+                 <!-- <span class="discount-tag">50% off</span> -->
+                 <img src="iamge/Soup/Miso Soup.jpg" class="product-thumb" alt=""  width="250px" height="180px">
+                 <button class="card-btn">Learn More</button>
+             </div>
+             <div class="product-info">
+                 <h2 class="product-brand">Miso Soup</h2>
+                 <p class="product-short-description">Served as a light starter or a simple supper, miso soup is an elegant dish that’s great on a cold day.</p>
+                 <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+             </div>
+         </div>
+         <div class="product-card">
+             <div class="product-image">
+                 <!-- <span class="discount-tag">50% off</span> -->
+                 <img src="iamge/Soup/Chicken Cabbage Soup.jpg" class="product-thumb" alt=""  width="250px" height="180px">
+                 <button class="card-btn">Learn More</button>
+             </div>
+             <div class="product-info">
+                 <h2 class="product-brand">Chicken Cabbage Soup </h2>
+                 <p class="product-short-description"> Chicken cabbage soup recipe is full of classic flavors like fresh ginger and toasted sesame oil.</p>
+                 <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+             </div>
+         </div>
+         <div class="product-card">
+             <div class="product-image">
+                 <!-- <span class="discount-tag">50% off</span> -->
+                 <img src="iamge/Soup/Thai Red curry Vegetable Soup.jpg" class="product-thumb" alt=""  width="250px" height="180px">
+                 <button class="card-btn">Learn More</button>
+             </div>
+             <div class="product-info">
+                 <h2 class="product-brand">Thai Red curry Vegetable Soup</h2>
+
+                 <p class="product-short-description">Made from red peppers, chiles, ginger, garlic, and other spices, Thai red curry is the best if you like your food fiery.</p>
+                 <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+             </div>
+         </div>
+         <div class="product-card">
+             <div class="product-image">
+                 <!-- <span class="discount-tag">50% off</span> -->
+                 <img src="iamge/Soup/Ginger Garlic Noodle Soup with Bok Choy (Bok Choy Soup).jpg" class="product-thumb" alt=""  width="250px" height="180px">
+                 <button class="card-btn">Learn More</button>
+             </div>
+             <div class="product-info">
+                 <h2 class="product-brand">Ginger Garlic Noodle Soup with Bok Choy</h2>
+                 <p class="product-short-description">Deliciously simple, but crammed with nutritious goodness, this is a soup to keep in regular rotation, especially during cold and flu season.</p>
+                 <!-- <span class="price">$20</span><span class="actual-price">$40</span> -->
+             </div>
+         </div>
+         </div>
+     </div>
+ </section>
+
+<!-- <section contract  > -->
+   <!-- Footer Section -->
+   <div class="footer__container">
+    <div class="footer__links">
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>About Us</h2>
+          <a href="/sign__up">How it works</a>
+          <a href="/">Careers</a> 
+          <a href="/">Terms of Service</a>
+        </div>
+        <div class="footer__link--items">
+          <h2>Contact Us</h2>
+          <a href="/Contact.html">Contact</a>
+           <a href="/Donation.html">Support</a>
+           <a href="/Submit.html">Submit Ingredients</a>
+        </div>
+      </div>
+      <div class="footer__link--wrapper">
+        <!-- <div class="footer__link--items">
+          <h2>Videos</h2>
+          <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+          <a href="/">Agency</a> <a href="/">Influencer</a>
+        </div> -->
+        <div class="footer__link--items">
+          <h2>Social Media</h2>
+          <a href="//www.instagram.com/asianingredients0/" target="_blank" aria-label="Instagram">Instagram</a> 
+          <a href="//www.facebook.com/profile.php?id=100085849591675" target="_blank" aria-label="Facebook">Facebook</a>
+          <a href="//www.youtube.com/channel/UCfoyD3LpRBZz7PrTq2tRLmw" target="_blank" aria-label="Youtube">Youtube</a>
+           <a href="https://twitter.com/AsianIngredien1" target="_blank" aria-label="Twitter">Twitter</a>
+        </div>
+      </div>
+    </div>
+    <section class="social__media">
+      <div class="social__media--wrap">
+        <div class="footer__logo">
+          <a href="/" id="footer__logo" ><img src="/iamge/FreeHome.png", width="70"> </i>Asian Ingredients</a>
+        </div>
+        <p class="website__rights">© Asian Ingredients 2022. All rights reserved</p>
+        <div class="social__icons">
+          <a class="social__icon--link" href="//www.facebook.com/profile.php?id=100085849591675" target="_blank" aria-label="Facebook"> <i class="fa fa-facebook"></i>
+          </a>
+          <a class="social__icon--link" href="//www.instagram.com/asianingredients0/"  target="_blank" aria-label="Instagram"> <i class="fa fa-instagram"></i>
+          </a>
+          <a class="social__icon--link" href="//www.youtube.com/channel/UCfoyD3LpRBZz7PrTq2tRLmw" target="_blank" aria-label="Youtube"><i class="fa fa-youtube"></i>
+          </a>
+          <a class="social__icon--link" href="//www.twitter.com/AsianIngredien1" target="_blank" aria-label="Twitter"><i class="fa fa-twitter"></i>
+          </a>
+          <!-- <a
+            class="social__icon--link"
+            href="/"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a> -->
+        </div>
+      </div>
+    </section>
+
+        <script src="app.js"></script>
+    </body>
+</html>
